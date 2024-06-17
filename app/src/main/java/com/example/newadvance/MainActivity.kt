@@ -26,6 +26,17 @@ class MainActivity : AppCompatActivity() {
             startActivity(i)
         }
 
+
+        binding.corotines.setOnClickListener {
+            var i=Intent(this,corotine::class.java)
+            startActivity(i)
+        }
+        binding.suspend.setOnClickListener {
+            var i=Intent(this,suspendfunction::class.java)
+            startActivity(i)
+        }
+
+
         
     }
 }

@@ -57,6 +57,10 @@ dependencies {
     implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1")
     implementation("androidx.navigation:navigation-fragment-ktx:$nav_version")
     implementation("androidx.navigation:navigation-ui-ktx:$nav_version")
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.9.0-RC")
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.9.0-RC")
+
+
 
 
 }

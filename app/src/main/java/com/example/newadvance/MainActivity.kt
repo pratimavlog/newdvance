@@ -36,6 +36,17 @@ class MainActivity : AppCompatActivity() {
             startActivity(i)
         }
 
+        binding.retrofit.setOnClickListener {
+            var i=Intent(this,retrofiteg::class.java)
+            startActivity(i)
+        }
+
+        binding.testinf.setOnClickListener {
+            var i=Intent(this,testing::class.java)
+            startActivity(i)
+        }
+
+
 
         
     }

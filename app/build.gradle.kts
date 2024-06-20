@@ -45,6 +45,8 @@ android {
 
 dependencies {
     val nav_version = "2.7.7"
+    val lifecycle_version = "2.8.2"
+
 
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
@@ -59,6 +61,14 @@ dependencies {
     implementation("androidx.navigation:navigation-ui-ktx:$nav_version")
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.9.0-RC")
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.9.0-RC")
+
+    implementation("com.squareup.retrofit2:retrofit:2.9.0")
+    implementation("com.squareup.retrofit2:converter-gson:2.9.0")
+    implementation("androidx.lifecycle:lifecycle-livedata-ktx:$lifecycle_version")
+
+
+
+
 
 
 

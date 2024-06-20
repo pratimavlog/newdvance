@@ -46,8 +46,19 @@ class MainActivity : AppCompatActivity() {
             startActivity(i)
         }
 
+        binding.livedata.setOnClickListener {
+            var i=Intent(this,livedata::class.java)
+            startActivity(i)
+        }
+
+        binding.cheecycode.setOnClickListener {
+            var i=Intent(this,advance::class.java)
+            startActivity(i)
+        }
 
 
-        
+
+
+
     }
 }
